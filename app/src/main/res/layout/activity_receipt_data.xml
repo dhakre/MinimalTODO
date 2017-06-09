@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".payment.ReceiptData">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Thank You!"
+        android:textColor="#000080"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Thank you !" />
+
+    <TextView
+        android:id="@+id/tx_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="You Just Paid:"
+        android:textSize="17sp"
+        android:textColor="#000080"
+        android:textStyle="bold"
+        tools:text="You jut paid :" />
+
+    <TextView
+        android:id="@+id/tx_business_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Business Name"
+        android:textSize="17sp"
+        android:layout_weight="1"
+        android:textColor="#000080"
+        android:layout_marginTop="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tx_timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textColor="#000080"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tx_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:layout_weight="1"
+        android:textColor="#000080"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tx_trans_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction ID:"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:textColor="#000080"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tx_entry_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entry Mode :"
+        android:textColor="#000080"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tx_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:textColor="#000080"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tx_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textColor="#000080"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+
+</LinearLayout>
